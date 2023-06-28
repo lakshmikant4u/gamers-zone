@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamers Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body class="container">
+
+    <header class="container">
+        <h4 class="display-6">Welcome to Gamers Zone</h4>
+        <p class="lead">Explore the latest games and connect with fellow gamers.</p>
+    </header>
+    <main class="container">
+        <div class="container">
+            <h1>Progress Tracker</h1>
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#step1">Step 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#step2">Step 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#step3">Step 3</a>
+                </li>
+            </ul>
+
+            <div class="tab-content mt-4">
+                <div class="tab-pane fade show active" id="step1">
+                    <h3>Step 1: Personal Information</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="tab-pane fade" id="step2">
+                    <h3>Step 2: Account Setup</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="tab-pane fade" id="step3">
+                    <h3>Step 3: Confirm</h3>
+                    <p>Review your information and confirm.</p>
+                    <button class="btn btn-primary">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
